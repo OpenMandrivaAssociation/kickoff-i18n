@@ -6,6 +6,7 @@ Group: System/Internationalization
 License: GPL
 URL: http://www.mandriva.com
 Source0: %name-%version.tar.bz2
+Patch0:  kickoff-i18n-1.0-uz-po.patch
 BuildRoot: %_tmppath/%name-%version-%release-buildroot
 BuildArch: noarch
 BuildRequires: kdelibs-devel
@@ -15,6 +16,7 @@ kickoff translations
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 ./configure \
