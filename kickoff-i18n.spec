@@ -1,5 +1,5 @@
 Name: kickoff-i18n
-Summary: kickoff translations
+Summary: Kickoff translations
 Version: 1.0
 Release: %mkrel 4
 Group: System/Internationalization
