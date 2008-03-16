@@ -1,7 +1,7 @@
 Name: kickoff-i18n
 Summary: Kickoff translations
 Version: 1.0
-Release: %mkrel 4
+Release: %mkrel 5
 Group: System/Internationalization
 License: GPL
 URL: http://www.mandriva.com
@@ -30,11 +30,10 @@ make clean
 rm -fr %buildroot
 %makeinstall_std
 
+%find_lang kickoff
+
 %clean
 rm -fr %buildroot
 
-%files
+%files -f kickoff.lang
 %defattr(-,root,root,-)
-%_datadir/locale/*/*/*
-
-
