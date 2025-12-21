@@ -9,6 +9,11 @@ Source0: %name-%version.tar.bz2
 Patch0:  kickoff-i18n-1.0-uz-po.patch
 BuildRoot: %_tmppath/%name-%version-%release-buildroot
 BuildArch: noarch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: kdelibs-devel
 
 %description
