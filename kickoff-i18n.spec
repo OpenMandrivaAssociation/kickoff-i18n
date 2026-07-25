@@ -1,7 +1,7 @@
 Name: kickoff-i18n
 Summary: Kickoff translations
 Version: 1.0
-Release: %mkrel 7
+Release: 8
 Group: System/Internationalization
 License: GPL
 URL: https://www.mandriva.com
